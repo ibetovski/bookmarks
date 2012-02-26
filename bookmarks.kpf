@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="9c97ba21-7471-2343-9bee-8feaec984091" kpf_version="4" name="MyProject.kpf">
+<file id="40957d36-6837-a940-8259-6239a1b18084" idref="9c97ba21-7471-2343-9bee-8feaec984091" name="page.contact_us.tpl" url="file:///Applications/XAMPP/xamppfiles/htdocs/autoglass/tt/templates/page.contact_us.tpl">
+</file>
+<file id="9f7d0ea5-f790-b744-a251-a77b11053c04" idref="9c97ba21-7471-2343-9bee-8feaec984091" name="contact_us.php" url="file:///Applications/XAMPP/xamppfiles/htdocs/autoglass/pages/contact_us.php">
+</file>
+<file id="ed40ffca-8761-7f4c-aa68-ce8eb3569581" idref="9c97ba21-7471-2343-9bee-8feaec984091" name="mod.google_maps.tpl" url="file:///Applications/XAMPP/xamppfiles/htdocs/autoglass/tt/templates/mod.google_maps.tpl">
+</file>
+<preference-set idref="9c97ba21-7471-2343-9bee-8feaec984091">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+<preference-set idref="9c97ba21-7471-2343-9bee-8feaec984091/bookmarks/list.php">
+  <string id="spellcheckLangID">en-US</string>
+</preference-set>
+</project>
