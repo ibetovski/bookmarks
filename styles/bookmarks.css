@@ -1,0 +1,799 @@
+html, body {
+	background: #000;
+	padding:	0;
+	margin:	0;
+	font-family: Arial, sans-serif;
+	font-size:	14px;
+	color: #999;
+}
+body {
+	
+}
+
+a {
+	color: #2c689b;
+}
+a:hover {
+	color: red;
+}
+span a {
+	color: #888;
+}
+b a {
+	color: #999;
+}
+
+
+/*+++++++++++++
+	LOGIN
+++++++++++++++*/
+
+body.login {
+	background: #000 url(img/login/bodybg_wood1_newbook.jpg) center center no-repeat;
+	position:absolute;
+	width:	100%;
+	height:	99%;
+	font-family:	Georgia, serif;
+	
+}
+	body.login div.main {
+		position:absolute;
+		top:	50%;
+		left:	50%;
+		width:	518px;
+		height:	509px;
+		margin:	0 auto;
+		margin-top:	-254px;
+		margin-left:	-259px;
+		text-align:	center;
+	}
+	
+	body.login h1.title {
+		background: url(img/login/title.jpg) top left no-repeat;
+		width:	450px;
+		height:	90px;
+		margin:	0 auto;
+		margin-top:	66px;
+		margin-bottom:	184px;
+		text-align:	left;
+		text-indent: -9999px;
+	}
+		body.login h1.title a {
+			display:	block;
+			height:	72px;
+		}
+		body.login h1.title b {
+			display:	block;
+			margin-top:	20px;
+			font-size:	18px;
+			font-weight:	normal;
+			text-align:	center;
+			text-indent: 0;
+			color: #DE9F31;
+		}
+	div.fpage_form {
+		background: url(img/login/login.jpg) top left no-repeat;
+		width:	458px;
+		height:	142px;
+		margin:	0 auto;
+	}
+	div.fpage_form h3 {
+		padding-top:	20px;
+		color: #DE9F31;
+	}
+	div.fpage_form a {
+		color: #DE9F31;
+	}
+	div.fpage_form label {
+		display:	block;
+		height:	0;
+		overflow:	hidden;
+		font-size:	18px;
+		color: #de9f31;
+	}
+		div.fpage_form ul {
+			margin:	0;
+			padding:	0;
+			padding-left:	10px;
+			list-style-type:	none;
+		}
+		div.fpage_form li {	
+			width:	195px;
+			float:	left;
+			padding-top:	7px;
+			padding-left:	15px;
+			text-align:	left;
+		}
+		div.fpage_form li b {
+			display:	block;
+			padding-bottom:	10px;
+			font-weight:	normal;
+			color: #e5e5e5;
+		}
+		div.fpage_form li input[type="text"],
+		div.fpage_form li input[type="password"]{
+			border:	0;
+			background:	url(img/login/input.jpg) top left repeat-x;
+			width:	193px;
+			padding:	3px 1px 7px 1px;
+			color: #360000;
+		}
+		div.fpage_form li input.empty {
+			background-image: url(img/login/input_empty.jpg);
+		}
+		div.fpage_form li a.forgot,
+		div.fpage_form li input.rememberme {
+			
+			margin-top:	20px;
+		}
+			div.fpage_form li a.forgot {
+				display:	block;
+				text-align:	right;
+			}
+		body.login a.register {
+			display:	block;
+			float: left;
+			margin-left:	53px;
+			color: #de9f31;
+		}
+		body.login input.submit {
+			border:	0;
+			background: url(img/login/btn.jpg) top left no-repeat;
+			width:	97px;
+			float:	right;
+			margin-top:	-3px;
+			margin-right:	50px;
+			padding-top:	3px;
+			font-weight:	bold;
+			font-family:	Georgia, serif;
+			color: #de9f31;
+		}
+
+/*+++++++++++++
+	HEADER
+++++++++++++++*/
+div.header {
+	width:	980px;
+	height:	60px;
+	text-align:	right;
+}
+	div.header p {
+		margin: 0;
+		padding-top:	20px;
+		padding-right: 20px;
+		float:	right;
+		text-align:	right;
+	}
+	div.header h1 {
+		background: url(img/inside/title.jpg) top left no-repeat;
+		width:	250px;
+		height:	60px;
+		margin:	0;
+		float:left;
+		text-align:	left;
+		text-indent:	-9999px;
+	}
+	div.header h1 a {
+		display:block;
+		width:	250px;
+		height:	60px;
+	}
+	/* изход */
+	div.header a#btn_logout {
+		padding:	20px 0;
+		float:	right;
+		color: #F3B25F;
+	}
+/*+++++++++++++
+	TOPBAR
+++++++++++++++*/
+div.topbar {
+	background: url(img/inside/topbar.jpg) top right no-repeat;
+	height:	50px;
+}
+	div.topbar div.topbuttons {
+		margin-right:	27px;
+		float:	right;
+	}
+	div.topbar a.button	{
+		display:	block;
+		background: url(img/btn/btn.png) top right no-repeat;
+		width:	111px;
+		height:		30px;
+		margin-right:	20px;
+		float:		left;
+		font-size:	14px;
+		text-align:	center;
+		text-decoration:none;
+		color: #f3b25f;
+	}
+	div.topbar a.button span {
+		display:	block;
+		padding:	5px 0px;
+	}
+		a#btn_add_bkm{
+			background:url(img/inside/btn/green.jpg) top left no-repeat;
+		}
+		a#btn_edit_bkm {
+			background:url(img/inside/btn/red.jpg) top left no-repeat;
+		}
+	div.topbar h2 {
+		margin:	0;
+		margin-bottom:	20px;
+		margin-left:60px;
+		float:left;
+		font-size:	24px;
+		color: #7b0000;
+	}
+	div.topbar h2 .cnt {
+		display:	block;
+		background: url(img/inside/cnt.jpg) top right no-repeat;
+		margin-left:	20px;
+		float:	right;
+		font-size:	18px;
+		color: #f3b25f;
+	}
+	div.topbar h2 .cnt b {
+		display:	block;
+		width:	60px;
+		padding:	3px 0;
+		text-align:	center;
+	}
+	
+	/* Bookmarks PAGES */
+	div.topbar div.pages {
+		height:	50px;
+		padding-left:	50px;
+	}
+	div.topbar div.pages ul {
+		margin:	0;
+		padding:	0;
+		list-style-type: none;
+	}
+	div.topbar div.pages li {
+		display:	block;
+		float:left;
+	}
+	div.topbar div.pages li a {
+		background: url(img/inside/pages.png) top left no-repeat;
+		display:	block;
+		width:	35px;
+		padding:	18px 0 13px 0;
+		font-size:	12px;
+		text-align:	center;
+		text-decoration: none;
+		color: #f8b661;
+	}
+	div.topbar div.pages li a:hover {
+		background-position:	0 -48px;
+	}
+	div.topbar div.pages li.cur a {
+		background-position:	0 -96px;
+		color: #fff;
+		cursor: default;
+	}
+	div.topbar div.pages li span {
+		display:	block;
+		padding:	20px;
+	}
+/*+++++++++++++
+	MAIN
+++++++++++++++*/
+body.inpage {
+	background: #000 url(img/inside/bg_wood.jpg) top left repeat-y;
+	position:	absolute;
+	width:	100%;
+	min-height:	100%;
+}
+body.inpage div.main {
+	background: url(img/inside/bookpages.jpg) top left repeat-y;
+	width:	980px;
+	min-height:	730px;
+	float:left;
+	clear:both;
+}
+	div.main form {
+	}
+div.menu {
+	background: url(img/inside/menu_bg.jpg) top left no-repeat;
+	width:	250px;
+	padding-top:	20px;
+	float:	left;
+}
+	div.menu ul {
+		margin:	0;
+		padding:	0;
+		list-style-type:none;
+	}
+	div.menu ul a {
+		background: url(img/inside/menu.jpg) top left no-repeat;
+		margin-top:	2px;
+		padding:	6px 0 6px 10px;
+		display:	block;
+		color: #c29b9b;
+		text-decoration:none;
+	}
+	div.menu ul li.cur a {
+		position:relative;
+		height:	20px;
+		color: #fff;
+	}
+	div.menu ul li.cur a span {
+		background:url(img/inside/menu_cur.png) top right no-repeat;
+		position:absolute;
+		top:	0px;
+		right:	-50px;
+		display:	block;
+		width:	290px;
+		height:	20px;
+		margin-top:	-3px;
+		padding-top:	10px;
+		padding-bottom:	3px;
+	}
+	div.menu ul a:hover {
+		
+	}
+div.bookmarks {
+	width:	730px;
+	float:	left;
+	color: #7b0000;
+}
+	div.bookmarks div.error_msg {
+		clear:	both;
+		padding:	10px 67px;
+	}
+	div.bookmarks_list {
+		padding-left:	47px;
+		color: #7b0000;
+	}
+	div.bookmarks ol {
+		margin:	0;
+		padding-left:	30px;
+	}
+	div.bookmarks ol li {
+		border-bottom: 1px solid rgba(130,130,130,0.3);
+		background: rgba(240,240,240,0.2);
+		min-width:	580px;
+		width:50%;
+		margin:	0px;
+		padding:	10px 5px 10px 10px;
+		padding-left:	10px;
+		float:left;
+		font-size:	20px;
+		list-style-position:	outside;
+	}
+	div.bookmarks ol li.even {
+		background: rgba(240,240,240,0.1);
+	}
+	
+	div.bookmarks ol li small {
+		margin-right:	5px;
+		float:	right;
+		color: #646464;
+		font-size:	14px;
+	}
+	
+	div.bookmarks ol li small a {
+		display:inline;
+	}
+	
+	form.addform ul {
+		clear:both;
+	}
+	div.bookmarks ol li a {
+		display:	block;
+		font-size:	14px;
+		color: #06367e;
+	}
+	div.bookmarks ol li span,
+	div.bookmarks ol li b,
+	div.bookmarks ol li span a,
+	div.bookmarks ol li b a{
+		font-size:	12px;
+		padding:2px;
+	}
+	div.bookmarks ol li a.url {
+		display:	block;
+		
+	}
+	div.bookmarks ol li b.gategory {
+		background: #7B0000;
+		color: #F3B25F;
+	}
+	div.bookmarks ol li p {
+		margin:0;
+		padding:0px 2px;
+	}
+	div.bookmarks ol li p.desc{
+		display:	block;
+		font-size:12px;
+		margin-top:	5px;
+	}
+	div.bookmarks ol li span.link {
+		display:block;
+	}
+	div.bookmarks ol li span.link a {
+		font-weight:	normal;
+		color: #2b5000;
+	}
+	
+	div.bookmarks ol li div.color_chooser {
+		visibility:hidden;
+		height: 15px;
+		float: left;
+	}
+	div.bookmarks ol li a.show_colors {
+		background: url(img/inside/btn/choose_color.png) 0 0 no-repeat;
+		display: block;
+		width: 17px;
+		height: 17px;
+		margin-top: 2px;
+		margin-right: 5px;
+		float: left;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	div.bookmarks ol li a.show_colors:hover {
+		background-position: 0 -17px;
+	}
+	div.bookmarks ol li span.choose_color {
+		display: none;
+		width: 230px;
+		float: left;
+		overflow: hidden;
+	}
+	div.bookmarks ol li span.choose_color a {
+		border: 1px solid #fff;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		display: block;
+		width: 11px;
+		height: 11px;
+		margin-right: 5px;
+		float: left;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	div.bookmarks ol li span.choose_color a.set_no_color {
+		background: url(img/inside/btn/choose_color_cancel.png) top left no-repeat;
+	}
+	div.bookmarks ol li b.category {
+		background:#7B0000;
+		color: #F3B25F;
+		-moz-border-radius:	5px;
+	}
+/*############
+#	ADD BOOKMARK
+##############*/
+div.addbookmark {
+	color: #7b0000;
+}
+ul.addform {
+	margin:	0;
+	padding:0;
+	list-style-type: none;
+}
+ul.addform a#clearUrl {
+	background: url(img/inside/btn/clearUrl.png);
+	display: block;
+	width:	18px;
+	height:	18px;
+	float: right;
+	text-indent: -9999px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+ul.addform li {
+	border: 0 !important;
+	background: none !important;
+	min-width:	0 !important;
+	width:	340px !important;
+	margin:	0 !important;
+	padding:	0 !important;
+	float:	left;
+	position: relative;
+}
+div.bookmarks ul.addform li b {
+	padding:	0;
+}
+ul.addform input[type="text"],
+ul.addform textarea,
+ul.addform select,
+ul.addform b {
+	display:	block;
+	width:	340px;
+	float:	left;
+	color: #646464 !important;
+}
+ul.addform b {
+	color: #fff !important;
+}
+ul.addform input#b_url {
+	width:	310px;
+	padding-right: 30px;
+}
+ul.addform b {
+	margin-top:	10px;
+}
+ul.addform input[type="text"],
+ul.addform textarea,
+ul.addform select{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #333;
+	padding: 5px 2px;
+	color: #7b0000;
+}
+ul.addform textarea {
+	height:	115px;
+}
+ul.addform select {
+	height: 30px;
+	padding:	5px 3px;
+}
+form.addform div.error_msg {
+	margin-top:	10px;
+	margin-left:	60px;
+	padding:	0;
+	float:	left;
+}
+form.addform input[type="submit"],
+form.addform input[type="cancel"] {
+	width:	111px;
+	padding:	4px 0;
+	margin-top:		10px;
+	margin-right:	40px;
+	float:	right;
+	text-align:	center;
+	cursor: pointer;
+}
+form.addform input.cancel {
+	
+}
+form.addform ul.arrThumbs {
+	margin:	0;
+	padding:	0;
+	list-style-type: none;
+}
+form.addform ul.arrThumbs li {
+	width:	auto !important;
+	float: left;
+}
+ol.bkm_list li {
+	padding-left:	10px;
+	list-style-position:inside;
+}
+ol.bkm_list li:hover,
+ol.bkm_list li.even:hover{
+	background: rgba(255,255,255,0.2);
+}
+ol.bkm_list li form.delete_edit {
+	display:	none;
+	width:	70px;
+	height:	20px;
+	padding-left:	20px;
+	float:	right;
+	font-weight:normal;
+	/*visibility:hidden;*/
+}
+ol.bkm_list li form.delete_edit input[type="submit"] {
+	border:none;
+	width:	20px;
+	height:	20px;
+	margin-right:	10px;
+	float:	left;
+	cursor: pointer;
+	text-indent:	-9999px;
+}
+ol.bkm_list li form.delete_edit a,
+ol.bkm_list li form.delete_edit input#edit,
+ol.bkm_list li form.delete_edit input#delete{
+	background: url(img/inside/btn/edit.png) top center no-repeat;
+	display:	block;
+	margin-top:	3px;
+	margin-bottom:	0;
+	padding:	2px 0;
+	float:	right;
+	font-size:	14px;
+	text-align:	center;
+	text-decoration:	none;
+	color:#F3B25F;
+}
+ol.bkm_list li form.delete_edit input#delete {
+	background: url(img/inside/btn/delete.png) top center no-repeat;
+	margin-left:	10px;
+	padding:	1px 0 2px 0;
+}
+ol.bkm_list li:hover form.delete_edit,
+ol.bkm_list li:hover div.color_chooser {
+	visibility:visible;
+	display:	block;
+}
+	/* ##### search #### */
+	div.search {
+		padding-top: 15px;
+		padding-left:	47px;
+		float:	left;
+	}
+	div.search p {
+		margin:	0;
+		padding:	10px;
+	}
+	input.search_str {
+		border:	none;
+		background: url(img/inside/search.jpg) top left no-repeat;
+		width:	181px;
+		padding: 5px 10px;
+		font-size:	18px;
+		color: #f3b25f;
+	}
+	input.search_str:focus {
+		outline: none;
+	}
+	div.search input[type="submit"] {
+		display:	none;
+	}
+	
+	ol.bkm_list li a b,
+	ol.bkm_list li p.desc b,
+	ol.bkm_list li span.link b {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	b.match0 {
+		background: yellow;
+		color: #000;
+	}
+	b.match1 {
+		background: cyan;
+		color: #000;
+	}
+	b.match2 {
+		background: GreenYellow;
+		color: #000;
+	}
+
+/*+++++++++++++++++++++++++
+	CONFIRM
++++++++++++++++++++++++++*/
+div.covering {
+	background: rgba(255,255,255,0.7);
+	position:fixed;
+	top:0;
+	left:0;
+	width:	100%;
+	height:	100%;
+	z-index:10;
+}
+div.above_all h3 {
+	font-size: 16px;
+	margin:	0px;
+	margin-bottom:	20px;
+}
+div.above_all span {
+	margin:	0;
+	padding:	0;
+	font-weight:	normal;
+	font-size:	12px;
+}
+div.above_all form {
+	box-shadow: 10px 10px 0 #000;
+	background: rgba(0,0,0,0.8) url(img/inside/atention.png) top left no-repeat;
+	width:	360px;
+	height:	auto;
+	overflow: hidden;
+	margin-top:	0px;
+	margin-left:-270px;
+	padding:	20px;
+	padding-left:	140px;
+	position:	absolute;
+	top:	0;
+	left:	50%;
+	z-index:100;
+	color: #fff;
+}
+
+/* Забиства проблемите с височине в браузърите */
+div.above_all form h3 {
+	font-size: 14px;
+	line-height: 16px;
+}
+div.above_all form span {
+	font-size: 12px;
+	line-height: 16px !important;
+}
+div.above_all form b {
+	margin:	5px 0 0 0;
+	padding:	0;
+	font-size: 14px;
+	line-height: 18px;
+}
+div.above_all form.hidden {
+	padding:	0 !important;
+	overflow: hidden;
+	-moz-opacity: 0;
+	filter:alpha(opacity="0");
+	opacity: 0;
+}
+div.above_all form.addform {
+	background-image: none;
+	width:	350px;
+	height:	auto;
+	top:	0;
+	margin-top: 0;
+	margin-left: -175px;
+	padding:	20px;
+	color: #fff;
+}
+div.confirm form 
+	
+/* ############
+	FOOTER
+###############*/
+div.footer {
+}
+div.footer {
+	background: url(img/inside/footer.jpg) left bottom no-repeat;
+	height:	50px !important;
+	margin-bottom:	20px;
+}
+div.bottom_footer {
+	width:	980px;
+}
+div.copyright {
+	float:right;
+}
+div.online {
+	background: rgba(0,0,0,0.5);
+	padding:	5px;
+	color: #fff;
+
+}
+	div.online span {
+		color: red;
+	}
+
+	
+/* ############
+	DEBUG
+###############*/
+div.debug {
+	background: #fff;
+	margin-left:	250px;
+	padding:	20px;
+	clear:	both;
+	color: #646464;
+}
+
+/*#############
+#	PREDEFINED
+###############*/
+input.empty {
+	background: #ffc2c0 !important;
+	color: #fff !important;
+}
+
+/* ############
+	CLEARFIX
+###############*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix {
+    display: block;
+}
+
+* html div.clearfix {
+    height: 1px;
+}
