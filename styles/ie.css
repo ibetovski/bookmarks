@@ -1,0 +1,9 @@
+div.covering {
+    background: #fff;
+    filter:alpha(opacity="70");
+}
+
+div.above_all form {
+    background: #000 url(img/inside/atention.png) top left no-repeat;
+    filter:alpha(opacity="100");
+}

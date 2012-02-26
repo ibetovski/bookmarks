@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	#RewriteLog /var/logs/apache2/rewrite.log
+	#RewriteLogLevel 9
+	#RewriteCond /var/www/framework/%{REQUEST_FILENAME} !-f
+	#RewriteRule ^\/(.+)$ /index.php?load=$1 [NC,QSA]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	#RewriteCond %{REQUEST_URI} !^/index.php
+	#RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$  [NC]
+	RewriteRule (.*)$ index.php?uri=$1
+	#RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+</IfModule>
