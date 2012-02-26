@@ -1,0 +1,5 @@
+<?php
+	if (!session_is_registered("username")) {
+		header("Location: " . BASEDIR);
+	}
+?>
