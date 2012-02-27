@@ -3,3 +3,4 @@ nbproject/
 bookmarks.kpf
 .DS_Store
 .cvsignore
+tt/templates_c/*
